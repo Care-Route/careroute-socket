@@ -1,5 +1,5 @@
-# 베이스 이미지로 Node.js 20.15.0 사용
-FROM node:20.15.0
+# 베이스 이미지
+FROM node:lts
 
 # 작업 디렉토리 설정
 WORKDIR /app
